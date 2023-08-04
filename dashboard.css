@@ -1,0 +1,146 @@
+.a1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar1 {
+    width: 20%;
+    background: #00a7ea;
+}
+
+.menu-bar1 img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-bar1 ul {
+    margin-top: 20px;
+}
+
+.menu-bar1 ul li {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+
+}
+
+.menu-bar1 ul li button {
+    display: flex;
+    align-items: center;
+    background: #00a7ea;
+    color: white;
+    border: none;
+}
+
+.menu-bar1 ul li button i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.menu-bar1 ul li button span.name {
+    font-size: 16px;
+}
+
+.dashboard {
+    width: 80%
+}
+
+.login {
+    height: 50px;
+}
+
+.login button {
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    border-radius: 80px;
+    align-items: center;
+}
+
+.login button img {
+    margin-left: 20px;
+}
+
+.login button i {
+    right: 20px;
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+}
+
+.dashboard-title {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .15px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.column1 {
+    margin-left: 5%;
+    margin-right: 3.75%;
+    width: 25%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.r2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.c1 {
+    width: 50%;
+}
+
+.c2 {
+    width: 55%;
+    justify-content: end;
+    display: flex;
+    padding-top: 10%;
+}
+
+.column2 {
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+    width: 25%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.column3 {
+    margin-left: 3.75%;
+    margin-right: 5%;
+    width: 25%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row2 {
+    margin: 50px 50px 20px;
+    box-sizing: border-box;
+}
+
+
+table {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    line-height: 80px;
+    margin-top: 20px;
+}

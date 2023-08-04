@@ -1,0 +1,83 @@
+.a2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar1 {
+    width: 20%;
+    background: #00a7ea;
+}
+
+.menu-bar1 img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.menu-bar1 ul {
+    margin-top: 20px;
+}
+
+.menu-bar1 ul li {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+
+}
+
+.menu-bar1 ul li button {
+    display: flex;
+    align-items: center;
+    background: #00a7ea;
+    color: white;
+    border: none;
+}
+
+.menu-bar1 ul li button i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.menu-bar1 ul li button span.name {
+    font-size: 16px;
+}
+
+.roles {
+    width: 80%
+}
+
+.login {
+    height: 50px;
+}
+
+.login button {
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    border-radius: 80px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.login button img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.login button i {
+    right: 20px;
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
